@@ -1,0 +1,69 @@
+@import '~bootstrap/scss/bootstrap';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+//header
+.head-color {
+    background-color: rgb(13, 110, 253);
+    padding: 8px;
+}
+
+.c-white {
+    color: white;
+}
+
+.head-list {
+    display: inline-block;
+    list-style: none;
+
+
+    li {
+        float: left;
+        margin: 4px;
+
+        &:hover {
+            color: $primary;
+            border-bottom: 3px solid $primary;
+
+        }
+    }
+}
+
+//main
+
+//card
+.img-card-main {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+//footer
+.footer-image {
+    background-image: url("img/laravel-comics/images/footer-bg.jpg");
+}
+
+.foot-list {
+    list-style: none;
+}
+
+.bg-dc-image {
+    background-image: url("img/laravel-comics/images/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.end-foot {
+    background-color: rgb(51, 50, 50);
+}
+
+.primary {
+    color: rgb(13, 110, 253);
+}
