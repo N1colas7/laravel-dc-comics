@@ -1,7 +1,1 @@
-
-<div>
-    
-</div>
-<div>
-    <p>{{ $item['series']}}</p>
-</div>
+<h1>ciao</h1>

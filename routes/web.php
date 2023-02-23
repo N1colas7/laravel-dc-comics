@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ComicController as ComicController;
+use App\Http\Controllers\PagesController as PagesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,12 +15,13 @@ use App\Http\Controllers\ComicController as ComicController;
 |
 */
 
-Route::get('/', function () {
-    $products = config('db');
+//Route::get('/', function () {
+//    $products = config('db');
     
-    return view('home',compact('products'));
-});
+//    return view('home',compact('products'));
+//});
 
-Route::get('/comics', [ComicController::class, 'index'])->name('product');
+//Route::get('/comics', [ComicController::class, 'index'])->name('product');
 
+Route::get('/', [PagesController::class, 'index'])->name('homepage');
 
